@@ -1,0 +1,140 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task-container{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.list{
+    font-weight: lighter;
+    color: gray;
+  
+}
+.add-container{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 220px;
+    font-size: 35px;
+    color: gray;
+}
+.add{
+    padding-left: 10px;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+.card{
+    border: 1px solid tomato;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 2px 2px 5px gray;
+}
+#card-view{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0px 10px 15px;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px;
+    color: tomato;
+}
+form{
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.complete{
+    padding: 25px;
+    text-decoration: line-through 3px;
+    color: tomato;
+}
+fieldset {
+    border: none;
+    border-top: 2px solid gray;
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px;
+}
+legend {
+    padding: 0px 35px;
+}
+.back-arrow{
+    display: flex;
+    width: 75px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: gray;
+    margin: 10px auto;
+    cursor: pointer;
+}
+#plus-item{
+    position: relative;
+    top: 120px;
+    left: 165px;
+}
+.blur-background{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.popup-add-new{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: white;
+    filter: opacity(100%);
+    width: 23%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: -170px;
+}
+.add-new{
+    font-size: 22px;
+    color: #FF5151;
+}
+#input-name{
+    width: 240px;
+    height: 23px;
+    margin: 15px auto;
+    border: 2px solid tomato;
+    border-radius: 5px;
+
+}
+.add-button{
+    width: 100px;
+    margin: auto;
+    background-color: tomato ;
+    border: 2px solid tomato;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.add-button a{
+    color: white;
+}

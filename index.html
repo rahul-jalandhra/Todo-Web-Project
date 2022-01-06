@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title> Todo List Web</title>
+</head>
+
+<body>
+    <span class="task-container">
+        <span class="task">Tasks</span>
+        <span class="list">Lists</span>
+    </span>
+    <i class="fas fa-plus-circle"></i>
+    <span class="add-container">
+            <a href="./add_new_list.html">
+                <i class="fa fa-plus-circle" style="font-size:40px;color: tomato"></i>
+            </a>
+        <span class="add">Add List</span>
+    </span>
+    <div class="card-container">
+       <a href="./list-view.html">
+        <div class="card">
+            <p>Trip to Paris</p>
+            <form action="">
+                <label for="complete1" class="complete"> Complete Task</label>
+                <br><br>
+                <input type="checkbox" id="pending1">
+                <label for="pending1" class="pending">Pending Task</label>
+            </form>
+        </div>
+       </a>
+        <div class="card">
+            <p>My Todo List</p>
+            <form action="">
+                <label for="complete2" class="complete"> Complete Task</label>
+                <br><br>
+                <input type="checkbox" id="pending2">
+                <label for="pending2" class="pending">Pending Task</label>
+            </form>
+        </div>
+        <div class="card">
+            <p>My Todo List</p>
+            <form action="">
+                <label for="complete3" class="complete"> Complete Task </label>
+                <br><br>
+                <input type="checkbox" id="pending3">
+                <label for="pending3" class="pending"> Pending Task </label>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
